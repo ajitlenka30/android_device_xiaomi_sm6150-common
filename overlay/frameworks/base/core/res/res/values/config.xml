@@ -307,4 +307,8 @@
     <!-- Package name of a telephony-related system app, such as an IMS service.
          Exempted from privacy indicators. -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
+
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
 </resources>
